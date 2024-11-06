@@ -1,6 +1,5 @@
 import 'package:blog_app/core/config/theme/theme.dart';
 import 'package:blog_app/presentation/auth/pages/signIn_page.dart';
-import 'package:blog_app/presentation/auth/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Blog App',
       theme: AppTheme.darkThemeMode,
       home:const SignINPage()
     );
